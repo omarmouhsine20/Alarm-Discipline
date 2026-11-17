@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <title>Alarm</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+    <main class="app">
+
+        <header>
+            <div class="logo">Discipline<span>Alarm</span></div>
+        </header>
+
+        <section class="clock-section">
+            <p class="label">TIME</p>
+            <h1 id="currentTime">00:00:00</h1>
+            <p id="currentDate"></p>
+        </section>
+
+        <section class="alarm-card">
+            <h2>Set Your Alarm</h2>
+
+            <input type="time" id="alarmTime">
+
+            <button id="setAlarmBtn">Set Alarm</button>
+
+            <p id="alarmStatus">No alarm set</p>
+        </section>
+
+        <section id="challenge" class="challenge hidden">
+            <div class="alarm-icon">🔔</div>
+            <h2>WAKE UP!</h2>
+            <p>Your alarm is ringing!</p>
+
+            <div class="word-box">
+                <p>Type this word to stop the alarm:</p>
+                <h1 id="targetWord">MORNING</h1>
+            </div>
+
+            <input
+                type="text"
+                id="wordInput"
+                placeholder="Type the word here..."
+                autocomplete="off"
+            >
+
+            <button id="stopAlarmBtn">Stop Alarm</button>
+
+            <p id="errorMessage"></p>
+        </section>
+
+        <footer>
+            <p>Wake up · Show up · Never give up</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
