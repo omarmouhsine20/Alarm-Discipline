@@ -17,7 +17,7 @@ A smart alarm clock that makes you actually wake up: the sound won't stop until 
 
 ## 🛠️ Tech Stack
 - HTML
-- CSS
+- TailwindCSS
 - JavaScript
 
 ## 🚀 How to Run
