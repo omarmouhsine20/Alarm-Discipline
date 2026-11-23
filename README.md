@@ -4,7 +4,8 @@ A smart alarm clock that makes you actually wake up: the sound won't stop until 
 
 🔗 **Live demo:** https://omarmouhsine20.github.io/Alarm-Discipline/
 
-![Screenshot](<img width="626" height="817" alt="Captura de pantalla 2026-11-17 015253" src="https://github.com/user-attachments/assets/6101036b-08a6-4847-9a0e-b1e09983ff0b" />
+![Screenshot](<<img width="3000" height="1500" alt="disciplinealarm png" src="https://github.com/user-attachments/assets/b2f5e0d7-c4c6-4c47-8bd6-fdbd97b36e05" />
+/>
 )
 
 ## ✨ Features
